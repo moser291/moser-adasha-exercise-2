@@ -8,6 +8,7 @@ body {
         justify-content: center;
         padding: 25px;
         font-size: 30px;
+        border-bottom: 3px dotted lightblue;
     }
 
     section.top {
@@ -19,6 +20,7 @@ body {
 
         p {
             text-align: justify;
+            padding: 25px;
         }
 
         .img-wrapper {
@@ -28,6 +30,7 @@ body {
 
         img {
             width: 50%;
+            border-radius: 5%;
 
         }
     }
@@ -45,7 +48,13 @@ body {
                 background-color: lightgoldenrodyellow;
                 display: block;
                 margin: 20px;
-                padding: 5px;
+                padding: 20px;
+                border-radius: 15px;
+
+                img {
+                border-radius: 10%;
+                }
+            }
 
                 .img-wrapper {
                     display: flex;
