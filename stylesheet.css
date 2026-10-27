@@ -1,0 +1,115 @@
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, serif;
+
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        font-size: 30px;
+    }
+
+    section.top {
+        padding: 25px;
+
+        p {
+            text-align: justify;
+        }
+
+        .img-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            width: 50%;
+
+        }
+    }
+
+    div.container {
+        width: 780px;
+        margin: 0 auto;
+        background-color: white;
+
+        section.middle {
+            padding: 15px 10px;
+
+            div {
+                background-color: lightgoldenrodyellow;
+                display: block;
+                margin: 20px;
+                padding: 5px;
+
+                .img-wrapper {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+
+        }
+
+
+        &.right {
+            width: 30%;
+            float: right;
+            background-color: #fff;
+            padding: 10px;
+
+            h1 {
+                text-transform: uppercase;
+                color: #505A2F;
+                border-bottom: 2px dashed #A12D37;
+                font-size: 16px;
+                font-weight: normal;
+            }
+
+            p {
+                font-size: 12px;
+
+                strong {
+                    font-size: 110%;
+                }
+
+                &.link {
+                    text-align: right;
+                }
+
+                a {
+                    color: #A12D37;
+                    text-transform: uppercase;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+
+                }
+
+            }
+
+        }
+
+        footer {
+            a {
+                color: white;
+                font-size: 11px;
+                text-decoration: none;
+            }
+
+            background-color: cornflowerblue;
+            font-size: 11px;
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+
+    div.links {
+        margin: 50px auto 0;
+        width: 153px;
+    }
+
+}
+
